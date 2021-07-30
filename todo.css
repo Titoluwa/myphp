@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(203, 255, 255, 0.883);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{ 
+    color: black;
+    font-weight: 600;
+}
+input{
+    border: white;
+    border-radius:5px;
+    padding: 10px;
+    margin: 5px;
+}
+#add, #submit{
+    background-color: #3ff5c7;
+    padding: 10px 30px;
+}
+#submit:hover, #add:hover{
+    
+    background-color:  #046b51b6;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    border-spacing: 5px;
+    width: 40%;
+    padding: 3px;
+}

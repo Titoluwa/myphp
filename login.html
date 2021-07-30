@@ -1,0 +1,71 @@
+<!doctype html>    
+<html>    
+<head>    
+    <title>Welcome| Login</title>    
+    <!-- <style>     
+        body{    
+            margin-top: 110px;    
+            margin-bottom: 110px;    
+            margin-right: 160px;    
+            margin-left: 90px;    
+            background-color: lightcyan;    
+            color: palevioletred;    
+            font-family: verdana;    
+            font-size: 100%    
+        }    
+        h2 {    
+            color: darkred;    
+            font-family: indigo;    
+            font-size: 100%;    
+        }    
+        h1 {    
+            color: darkred;    
+            font-family: indigo;    
+            font-size: 100%;
+        }    
+    </style>     -->
+</head>    
+<body>   
+    <h3>User Login</h3> 
+    <form action="login.php" method="POST">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username">
+        <br>  <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <br> <br>
+        <input type="submit" name="submit" value="Login">
+    </form>
+</body>    
+</html>
+<!-- // if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+    //     if (empty($_POST['name'])){
+    //         $nameErr = 'Enter your name ';
+    //         }else{
+    //             $nameErr = $_POST["name"];
+    //     }
+    //     if (empty($_POST['password'])){
+    //         $passwordErr = 'Enter your password ';
+    //         }else{
+    //            $passwordErr =  "you have entered a password";
+    //     }
+    // function test_input($data){
+    //     $data = trim($data);
+    //     $data = stripcslashes($data);
+    //     $data = htmlspecialchars($data);
+    //     return $data;
+    // }    
+        // if (empty($nameErr)&&empty($password)){
+    //     $sql = "SELECT id FROM login WHERE name = '$name' and password = '$password'";
+    //     $stmt = $conn->query($sql);
+    //     if ($stmt->exec()){
+    //         if ($stmt->count()== 1){
+    //             session_start();
+    //             $_SESSION['name'] = $name;
+    //             header("location: todo.php");
+    //         }else{
+    //             $error = "Wrong Details";
+    //         }
+    //     }
+    // }
+-->
